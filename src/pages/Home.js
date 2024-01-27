@@ -32,7 +32,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/lift").then((res) => {
+    axios.get("https://lift.galileo-tutor.com/lift").then((res) => {
       setData(res.data);
       console.log("fetched");
       // console.log(data);
