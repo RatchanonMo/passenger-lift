@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LineSeed";
+  src: url("./fonts/LINESeedSansTH_Rg.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LineSeed";
+  src: url("./fonts/LINESeedSansTH_Bd.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "LineSeed";
+  src: url("./fonts/LINESeedSansTH_He.ttf");
+  font-weight: 800;
+}
+
+* {
+  font-family: "LineSeed";
+}
+  
