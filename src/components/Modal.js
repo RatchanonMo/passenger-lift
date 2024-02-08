@@ -27,7 +27,7 @@ export default function Modal(props) {
     };
 
     axios
-      .put("http://localhost:4000/lift/confirm-lift/" + liftId, formData)
+      .put("https://lift.galileo-tutor.com/lift/confirm-lift/" + liftId, formData)
       .then((res) => {
         console.log(res.data);
         console.log("Event successfully updated");
